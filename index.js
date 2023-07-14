@@ -23,8 +23,8 @@ darkmode.showWidget();
 (
     function (w, d) {
         w.CollectId = "60b4f9907948c2395d09a422";
-        var h = d.head || d.getElementsByTagName("head")[0];
-        var s = d.createElement("script");
+        let h = d.head || d.getElementsByTagName("head")[0];
+        let s = d.createElement("script");
         s.setAttribute("type", "text/javascript");
         s.async = true;
         s.setAttribute("src", "https://collectcdn.com/launcher.js");
